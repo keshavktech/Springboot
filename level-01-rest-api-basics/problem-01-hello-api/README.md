@@ -15,7 +15,10 @@ and returns plain text "Hello, World!"
 
 ## How to run
 ./mvnw spring-boot:run
-Then open: http://localhost:8080/hello
+Then open: http://localhost:8080/hello/api
+
+### Using curl
+curl http://localhost:8080/hello/api
 
 ## Expected output
 Hello, World!
